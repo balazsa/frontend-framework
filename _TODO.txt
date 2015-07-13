@@ -1,0 +1,65 @@
+*********************************
+-           normalize
+*********************************
+    cross-browser : mindenhol ugyan az legyen a default beállítás ( a formázatlan beállítás )
+
+
+
+*********************************
+-           cards
+*********************************
+	mint ami webshop3ban is voltak a boxok
+    - header - content - footer
+  
+  
+  
+*********************************
+-           buttons
+*********************************
+    button-fit = .btn-block
+    button-ghost -> no background color, just font color
+    
+    - label-buttons ( checkboxes )
+        - dropdowns
+        - accordions
+        - tabs? ( with radios? )
+        
+    - slider buttons ( checkboxos )
+        
+        
+   
+*********************************
+-           headbar / navbar
+*********************************
+    - úgy megcsinálni, hogy lehessen dropdown is, oldalsó menü is, és sima menübar is.
+   
+   
+   
+*********************************
+-           forms
+*********************************
+    - inline
+    - stacked
+    - iconos
+    - gombos
+    - animált
+        - placeholder animáció
+        - :hover/:focus animáció
+    - radio list ( without the radio button, indicate with icon )
+    - custom selectpicker ( v2.0? )
+  
+  
+  
+********************************* 
+-           grid system
+*********************************
+    - rows - cols 12-16-18-24?
+    - percentage 
+    - col count ( hány darab legyen )
+  
+  
+  
+*********************************
+-           margin, padding, line-height segédloopok
+*********************************
+    

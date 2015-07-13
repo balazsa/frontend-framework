@@ -1,0 +1,84 @@
+@import: "../variables/fonts.less";
+@import: "../variables/colors.less";
+@import: "../variables/grid.less" ;
+@import: "../variables/viewport-sizes.less";  
+
+
+
+
+//
+//    -- PAGE WRAP .DIV SIZES ON MULTIPLE VIEWPORT SIZES
+//
+
+// xtra small mobile
+@media screen and ( max-width: @xxs-mobile-width ) {
+    .page-wrap {
+        width: 100%;
+        padding-left: ( @gutter-width / 2);
+        padding-right: ( @gutter-width / 2);
+    }
+}
+
+//small mobile and mobile portrait view
+@media screen and ( min-width: ( @xxs-mobile-width+1) ) and ( max-width: @xs-mobile-width ) {
+   .page-wrap {
+        width: 100%;
+        padding-left: @gutter-width;
+        padding-right: @gutter-width;
+    }
+}
+
+// mobile landscape view and tablet portrait view
+@media screen and ( min-width: ( @xs-mobile-width+1) ) and ( max-width: @mobile-width ) {
+   .page-wrap {
+        width: 100%;
+        padding-left: @gutter-width;
+        padding-right: @gutter-width;
+    }
+}
+
+// tablet landscape view
+@media screen and ( min-width: ( @mobile-width+1) ) and ( max-width: @tablet-width ) {
+   .page-wrap {
+        width: 100%;
+        padding-left: @gutter-width;
+        padding-right: @gutter-width;
+    }
+}
+
+// small desktop screens
+@media screen and ( min-width: ( @tablet-width+1) ) and ( max-width: @desktop-width ) {
+   .page-wrap {
+        width: 100%;
+        padding-left: @gutter-width;
+        padding-right: @gutter-width;
+    }
+}
+
+// medium desktop screens
+@media screen and ( min-width: ( @desktop-width+1) ) and ( max-width: @xl-desktop-width ) {
+   .page-wrap {
+        width: 100%;
+        padding-left: @gutter-width;
+        padding-right: @gutter-width;
+    }
+}
+
+// big desktop screens
+@media screen and ( min-width: ( @xl-desktop-width+1) ) and ( max-width: @xxl-desktop-width ) {
+   .page-wrap {
+        width: 100%;
+        padding-left: @gutter-width;
+        padding-right: @gutter-width;
+    }
+}
+
+// large desktop screens
+@media screen and ( min-width: ( @xxl-desktop+1) ) {
+   .page-wrap {
+        width: 100%;
+        padding-left: @gutter-width;
+        padding-right: @gutter-width;
+    }
+}
+
